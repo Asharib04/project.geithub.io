@@ -1,0 +1,315 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Contact Us</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="style css/navbar.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <style>
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+/*font-family: 'Roboto', sans-serif;*/
+
+:root
+{
+	--main-color: #e9204f;
+	--black: #191919;
+	--bg: #101010;
+	--font: #fff;
+	--border: .1rem solid rgba(255,255,255,.3);
+}
+*
+{
+	font-family: 'Roboto', sans-serif;
+	margin: 0;padding: 0;
+	box-sizing: border-box;
+	outline: none;border: none;
+	text-decoration: none;
+	text-transform: capitalize;
+	transition: .3s linear;
+}
+html
+{
+	font-size: 62.5%;
+	overflow-x: hidden;
+	scroll-padding-top: 9rem;
+	scroll-behavior: smooth;
+}
+html::-webkit-scrollbar
+{
+	width: .8rem;
+}
+html::-webkit-scrollbar-track
+{
+	background: transparent;
+}
+html::-webkit-scrollbar-thumb
+{
+	background: #eee;
+	border-radius: 4rem;
+}
+body
+{
+	background: var(--bg);
+}
+section
+{
+	padding: 4rem 7%;
+}
+
+.btn
+{
+	margin-top: 1rem;
+	display: inline-block;
+	padding: 2rem 4rem;
+	font-size: 1.7rem;
+	color: var(--font);
+	cursor: pointer;
+	position: relative;
+	overflow: hidden;
+	background: #fff;
+}
+.btn span 
+{
+	position: relative;
+	z-index: 3;
+}
+.btn:after
+{
+	content: '';
+	display: block;
+	width: 100%;height: 100%;
+	position: absolute;
+	right: 0%;top: 0%;
+	background: var(--main-color);
+	transition: .5s;
+	z-index: 1;
+}
+.btn:hover:after
+{
+	right: -100%;
+}
+.btn:hover
+{
+	color: var(--main-color);
+}
+
+.heading
+{
+	text-align: center;
+	color: var(--font);
+	padding: 2.5rem 0;
+	font-size: 4.5rem;
+}
+.paragraph
+{
+	text-align: center;
+	font-size: 1.5rem;
+	color: #747474;
+	padding: 1rem 0;
+	line-height: 1.8;
+}
+
+        .contact .row 
+{
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	padding: 3rem 0;
+}
+.contact .row .content
+{
+	flex: 1 1 35rem;
+	padding: 2rem;
+}
+.contact .row .content h1
+{
+	font-size: 5rem;
+	color: var(--font);
+	padding: 3rem 0;
+}
+.contact .row .content h3
+{
+	font-size: 2rem;
+	color: var(--main-color);
+	font-weight: 300;
+	padding: 2rem 0;
+}
+.contact .row .content p 
+{
+	font-size: 1.6rem;
+	color: #ccc;
+	line-height: 1.8;
+	padding: 1rem 0;
+}
+.contact .row .content .icons a 
+{
+	width: 5rem;
+	height: 5rem;
+	line-height: 5rem;
+	text-align: center;
+	color: var(--font);
+	margin: .3rem .3rem;
+	border: .1rem solid var(--main-color);
+	font-size: 1.3rem;
+	border-radius: 50%;
+}
+.contact .row .content .icons a:hover
+{
+	transform: translateY(-1rem);
+}
+.contact .row .form 
+{
+	flex: 1 1 55rem;
+	padding: 2rem;
+}
+.contact .row .form input[type="text"],
+.contact .row .form input[type="email"]
+{
+	width: 27rem;
+	background: transparent;
+	border-bottom: .1rem solid #ddd;
+	padding-bottom: 2rem;
+	margin: 2.5rem 0;
+	color: #ddd;
+}
+.contact .row .form .subject
+{
+	width: 55rem!important;
+}
+.contact .row .form textarea
+{
+	width: 55rem;
+	background: transparent;
+	border-bottom: .1rem solid #ddd;
+	padding-bottom: 2rem;
+	color: #ddd;
+	margin: 1rem 0;
+}
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg ">
+
+	    <div class="container">
+
+	      <a class="navbar-brand" href="#"><img src="../images/logo.png" width="50px" alt=""></a>
+
+	      <button class="navbar-toggler" type="button" data-toggle="collapse"   data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+	        <span class="navbar-toggler-icon"></span>
+	      </button>
+
+	      <div class="collapse navbar-collapse" id="navbarResponsive">
+	        <ul class="navbar-nav ml-auto">
+	          <li class="nav-item active">
+	            <a class="nav-link" href="indext.html"><b>Home</b>
+	              <span class="sr-only">(current)</span>
+	            </a>
+	          </li>
+	          <li class="nav-item">
+	            <a class="nav-link" href="#"><b>Product</b></a>
+	          </li>
+	          <li class="nav-item">
+	            <a class="nav-link" href="#"><b>Promo</b></a>
+	          </li>
+	          <li class="nav-item">
+	            <a class="nav-link" href="#"><b>About</b></a>
+	          </li>
+              <li class="nav-item">
+	            <a class="nav-link" href="#"><b>Contact</b></a>
+	          </li>
+            <li class="nav-link">
+              <a href="#"><img width="25" height="25" src="https://img.icons8.com/external-outline-juicy-fish/60/external-magnifying-contact-us-outline-outline-juicy-fish.png" alt="external-magnifying-contact-us-outline-outline-juicy-fish"/></a>
+            </li>
+	        </ul>
+	      </div>
+	      
+	    </div>
+	  </nav>
+
+    <section class="contact" id="contact">
+		<h1 class="heading">contact us</h1>
+		<p class="paragraph">feel free to contact us</p>
+
+		<div class="row">
+			<div class="content">
+				<h1>let's talk</h1>
+				<h3>asharibhussainofficial@gmail.com</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt.</p>
+
+			
+			</div>
+
+			<div class="form">
+				<form>
+					<input type="text" name="" placeholder="your name">
+					<input type="email" name="" placeholder="your email">
+					<input type="text" name="" placeholder="subject" class="subject">
+
+					<textarea placeholder="your message"></textarea>
+
+					<a href="#" class="btn"><span>send message</span></a>
+				</form>
+			</div>
+		</div>
+	</section>
+
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>company</h4>
+                    <ul>
+                        <li><a href="#">about us</a></li>
+                        <li><a href="#">our services</a></li>
+                        <li><a href="#">privacy policy</a></li>
+                        <li><a href="#">affiliate program</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>get help</h4>
+                    <ul>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">shipping</a></li>
+                        <li><a href="#">returns</a></li>
+                        <li><a href="#">order status</a></li>
+                        <li><a href="#">payment options</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>online shop</h4>
+                    <ul>
+                        <li><a href="#">watch</a></li>
+                        <li><a href="#">bag</a></li>
+                        <li><a href="#">shoes</a></li>
+                        <li><a href="#">dress</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>follow us</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+   </footer>
+      
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
